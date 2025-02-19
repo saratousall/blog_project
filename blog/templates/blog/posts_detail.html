@@ -1,0 +1,5 @@
+<h1>Details post : {{id}}</h1>
+<a href="{% url 'post_list' %}"><button>Retour</button></a>
+<h2>Titre de la page:{{ post.title }}</h2>
+<h2>Contenue de la page :{{ post.content }}</h2>
+<h2>Date de la page:{{ post.created_at }}</h2>
